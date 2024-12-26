@@ -26,6 +26,7 @@ div {
  background-color:rgb(49, 40, 40);
  border-radius:10px
  
+ 
 
  
  
@@ -53,6 +54,7 @@ width:30px;
 height:30px;
 padding-left:10px;
 vertical-align: -8px;
+object-fit: cover;
 
 
 
