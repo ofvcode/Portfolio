@@ -47,6 +47,19 @@ span {
 
 } 
 
+img {
+
+width:30px;
+height:30px;
+padding-left:10px;
+vertical-align: -8px;
+
+
+
+
+
+}
+
 h1 {
  
  background-color: grey;
@@ -58,6 +71,23 @@ h1 {
  padding-left: 10px;
 
  
+
+
+}
+
+h4 {
+
+  padding-left:8px;
+
+
+}
+
+
+p {
+
+  padding-left:10px;
+  padding-right:10px;
+
 
 
 }
