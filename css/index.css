@@ -114,16 +114,25 @@ background-size: cover
 
 @media (max-width: 600px)  {
   div {
-   width:10-0px;
+   width: 300px;
    margin:0;
+   overflow: hidden;
 
 
   }
    * {
-     font-size:x-small
+     font-size: 20px;
 
 
    }
+   
+   span {
+    font-size: 18px;
+
+
+
+   }
+
 
    img {
     width: 20px;
