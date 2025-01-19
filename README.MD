@@ -10,4 +10,4 @@
 
 <p style="display:inline-block">Site Link</p>
 <span style="color:green">---></span>
-<a style="font-weight:500; color:white;">https://ofvcode.github.io/Portfolio/ </a>
+<a style="display:inline-block font-weight:500; color:white;" href="https://ofvcode.github.io/Portfolio/">https://ofvcode.github.io/Portfolio/ </a>
