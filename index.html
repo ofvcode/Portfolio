@@ -29,12 +29,50 @@
        animation-timeline: view();
        animation-range: entry 0% cover
        40%;
-
+      
      }
 
      html{
       scroll-behavior:smooth;
     }
+
+    @media (max-width: 767px) {
+  div {
+    flex-direction:column;
+
+  }
+
+  #bar {
+   margin:0;
+   height:fit-content;
+   width:fit-content;
+
+
+  }
+  #about{
+    color:black;
+
+  }
+
+  .socials{
+
+    
+    flex-direction:row;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+  }
+
+  .lastcard{
+    margin-bottom: 300px;
+  }
+  .lastline{
+    width:calc(100%)
+  }
+  
+}
     </style>
 
 </head>
@@ -78,7 +116,7 @@
 
           <div class=" flex flex-row gap-40 scale-110">
           <div id="card" class="hover:scale-105 delay-100  ease-in-out flex h-100 w-100 rounded-xl outline-2 outline-white duration-300 hover:outline-1">
-            <img src="https://cdn.discordapp.com/avatars/1224060882900746443/a_b89c2189d8c6c0982d29da7f4081c7dc.gif?size=512">
+            <img src="images/image1.gif">
           </div>
 
           <div class="flex flex-col gap-10 ">
@@ -87,7 +125,7 @@
             <p class="text-white font-sans font-semibold text-[20px] mt-10 blur-sm group-hover:blur-none duration-400">I am ofv, a fullstack developer based in the US.</p>
             
           </div>
-          <div id="card" class="hover:scale-110  ease-in-out duration-300 flex h-fit w-110 rounded-xl outline-1 outline-white p-9 flex-col group">
+          <div id="card" class="lastcard hover:scale-110  ease-in-out duration-300 flex h-fit w-110 rounded-xl outline-1 outline-white p-9 flex-col group">
             <p class=" font-sans font-semibold text-[30px]  bg-clip-text bg-gradient-to-r from-white to-gray-700 text-transparent group-hover:scale-105 duration-400">Some of my projects include..</p>
             <a class="mt-3  duration-400 flex gap-4"href="https://skillicons.dev">
                 <img class="hover:scale-110 duration-300" src="https://skillicons.dev/icons?i=html" />
@@ -104,10 +142,10 @@
         </div>  
     </div>
 
-    <div class=" blocks flex w-[calc(100%-25rem) text-5xl  font-sans font-bold text-white ml-[13rem] mt-20"><h1>SOCIALS</h1></div>
+    <div class="socials blocks flex w-[calc(100%-25rem) text-5xl  font-sans font-bold text-white ml-[13rem] mt-20"><h1>SOCIALS</h1></div>
     
 
-    <div class=" blocks flex w-[calc(100%-25rem)] outline-white outline-[0.2px] self-center"></div>
+    <div class="lastline blocks flex w-[calc(100%-25rem)] outline-white outline-[0.2px] self-center"></div>
 
 
 
@@ -116,7 +154,7 @@
 
 
     <div class="  blocks w-[100%] mt-3 h-[20vh] items-center  bg-black outline outline-1 mb-30   flex justify-center">
-      <div class="flex gap-2 flex-row scale-140">
+      <div class="socials flex gap-2 flex-row scale-140">
         
             <a href="https://www.discordlookup.com/user/1224060882900746443">
               <img class="hover:scale-110 duration-300"src="https://skillicons.dev/icons?i=discord" />
