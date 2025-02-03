@@ -1114,6 +1114,24 @@
   .snap-normal {
     scroll-snap-stop: normal;
   }
+  .scroll-mt-10 {
+    scroll-margin-top: calc(var(--spacing) * 10);
+  }
+  .scroll-mt-20 {
+    scroll-margin-top: calc(var(--spacing) * 20);
+  }
+  .scroll-mt-40 {
+    scroll-margin-top: calc(var(--spacing) * 40);
+  }
+  .scroll-mt-60 {
+    scroll-margin-top: calc(var(--spacing) * 60);
+  }
+  .scroll-mt-80 {
+    scroll-margin-top: calc(var(--spacing) * 80);
+  }
+  .scroll-mb-80 {
+    scroll-margin-bottom: calc(var(--spacing) * 80);
+  }
   .list-inside {
     list-style-position: inside;
   }
