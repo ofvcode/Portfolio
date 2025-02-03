@@ -590,6 +590,9 @@
   .isolation-auto {
     isolation: auto;
   }
+  .z-10 {
+    z-index: 10;
+  }
   .z-auto {
     z-index: auto;
   }
@@ -698,8 +701,23 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
+  }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
+  .mt-9 {
+    margin-top: calc(var(--spacing) * 9);
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
@@ -710,14 +728,23 @@
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
   }
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
   }
   .mb-30 {
     margin-bottom: calc(var(--spacing) * 30);
+  }
+  .ml-2 {
+    margin-left: calc(var(--spacing) * 2);
   }
   .ml-\[13rem\] {
     margin-left: 13rem;
@@ -820,23 +847,47 @@
     width: calc(var(--spacing) * 7);
     height: calc(var(--spacing) * 7);
   }
+  .h-1\/2 {
+    height: calc(1/2 * 100%);
+  }
   .h-1\/30 {
     height: calc(1/30 * 100%);
+  }
+  .h-36 {
+    height: calc(var(--spacing) * 36);
   }
   .h-100 {
     height: calc(var(--spacing) * 100);
   }
+  .h-\[10vh\] {
+    height: 10vh;
+  }
   .h-\[20vh\] {
     height: 20vh;
   }
+  .h-\[50vh\] {
+    height: 50vh;
+  }
+  .h-\[80svh\] {
+    height: 80svh;
+  }
+  .h-\[300px\] {
+    height: 300px;
+  }
   .h-\[600px\] {
     height: 600px;
+  }
+  .h-\[900px\] {
+    height: 900px;
   }
   .h-fit {
     height: fit-content;
   }
   .h-screen {
     height: 100vh;
+  }
+  .h-svh {
+    height: 100svh;
   }
   .max-h-none {
     max-height: none;
@@ -850,11 +901,17 @@
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
+  .w-36 {
+    width: calc(var(--spacing) * 36);
+  }
   .w-100 {
     width: calc(var(--spacing) * 100);
   }
   .w-110 {
     width: calc(var(--spacing) * 110);
+  }
+  .w-\[50svh\] {
+    width: 50svh;
   }
   .w-\[100\%\] {
     width: 100%;
@@ -1281,6 +1338,9 @@
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
+  }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
